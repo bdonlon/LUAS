@@ -5,8 +5,8 @@ public class cameraShake_script : MonoBehaviour {
 	
 	public float jitter;
 
-	public GameObject camera;
-	public GameObject accelerator_handle;
+	public GameObject GM,camera;
+	private float power;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class cameraShake_script : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		float power = accelerator_handle.GetComponent<accelerator_script>().power;
+		power = GM.GetComponent<GM_script>().getPowerValue();
 		power = -0.5f + power;
 		power = power/25;
 		jitter = power;
@@ -27,6 +27,10 @@ public class cameraShake_script : MonoBehaviour {
 		shake.y = Random.Range(-jitter,jitter);
 		shake.z = camera.transform.position.z;
 
-		camera.transform.position=shake;
+		if(GM.GetComponent<GM_script>().getPower()){
+			camera.transform.position=shake;
+		}else{
+			camera.transform.position= new Vector3 (0,0,camera.transform.position.z);
+		}
 	}
 }

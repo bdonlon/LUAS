@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\key_script.cs">
+    <Files>
+      <File FileName="Assets\Scripts\accelerator_script.cs" Line="39" Column="61" />
+      <File FileName="Assets\Scripts\key_script.cs" Line="41" Column="36" />
+      <File FileName="Assets\Scripts\GM_script.cs" Line="14" Column="19" />
+      <File FileName="Assets\Scripts\cameraShake_script.cs" Line="33" Column="75" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

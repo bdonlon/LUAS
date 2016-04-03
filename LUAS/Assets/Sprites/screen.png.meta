@@ -1,11 +1,16 @@
 fileFormatVersion: 2
 guid: 81e3275330092c7428de131f70384782
-timeCreated: 1459634677
+timeCreated: 1459720344
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: screen_0
     21300002: screen_1
+    21300004: screen_2
+    21300006: screen_3
+    21300008: screen_4
+    21300010: screen_5
+    21300012: screen_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -82,6 +87,81 @@ TextureImporter:
         - {x: -38.5, y: -41}
         - {x: 38.5, y: -41}
         - {x: 38.5, y: 41}
+    - name: screen_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 691
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 41}
+        - {x: -38.5, y: -41}
+        - {x: 38.5, y: -41}
+        - {x: 38.5, y: 41}
+    - name: screen_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 709
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -31, y: 23}
+        - {x: -31, y: -17}
+        - {x: -17, y: -24}
+        - {x: 27, y: -24}
+        - {x: 28, y: -21}
+        - {x: 28, y: 12}
+        - {x: 7, y: 29}
+    - name: screen_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 707
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 32}
+        - {x: -28, y: 21}
+        - {x: -28, y: -9}
+        - {x: -20, y: -25}
+        - {x: 26, y: -25}
+        - {x: 29, y: -18}
+        - {x: 29, y: 29}
+        - {x: 23, y: 32}
+    - name: screen_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 744
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: screen_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 719
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
